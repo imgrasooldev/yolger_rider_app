@@ -19,7 +19,8 @@ class AppUpdateDialog extends StatelessWidget {
   });
 
   Future<void> _launchStore() async {
-    final url = Platform.isAndroid ? config.androidStoreUrl : config.iosStoreUrl;
+    final url =
+        Platform.isAndroid ? config.androidStoreUrl : config.iosStoreUrl;
     if (url.isEmpty) return;
     final uri = Uri.parse(url);
     if (await canLaunchUrl(uri)) {
@@ -109,7 +110,7 @@ class AppUpdateDialog extends StatelessWidget {
                   Expanded(
                     child: CustomButton(
                       onPressed: _launchStore,
-                      text: localizations.update,
+                      text: 'Update ....',
                       textStyle: const TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w600,

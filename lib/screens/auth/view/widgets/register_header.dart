@@ -14,7 +14,7 @@ class RegisterHeader extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(AppImages.splashLogo, width: 200, height: 200),
+            Image.asset(AppImages.appLogo, width: 200, height: 200),
           ],
         ),
         Container(

@@ -6,7 +6,6 @@ import 'package:hyper_local/screens/dashboard/bloc/notification/notification_blo
 import 'package:hyper_local/utils/widgets/custom_button.dart';
 import 'package:animated_toggle_switch/animated_toggle_switch.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ionicons/ionicons.dart';
 import '../../../../config/colors.dart';
 import '../../../../config/helper.dart';
 import '../../../../utils/widgets/custom_image_container.dart';
@@ -223,7 +222,7 @@ class _HomeHeaderSectionState extends State<HomeHeaderSection> {
                               padding: isTablet() ? const EdgeInsets.all(11) : const EdgeInsets.all(8),
 
                               child: Icon(
-                                Ionicons.notifications,
+                                Icons.notifications,
                                 size: (isTablet() ? 12 : 20).sp,
                                 color: AppColors.primaryColor,
                               ),

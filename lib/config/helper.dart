@@ -99,7 +99,8 @@ enum ApiStatus { initial, loading, success, failed }
 enum MobileANdEmailStatus { initial, loading, isnew, isuse }
 
 String myLogoImage(bool isDark) {
-  return isDark ? AppImages.splashLightLogo : AppImages.splashLogo;
+  // return isDark ? AppImages.splashLightLogo : AppImages.splashLogo;
+  return AppImages.appLogo;
 }
 
 void redirectionCondition(BuildContext context) {

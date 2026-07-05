@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 extension AppColors on ColorScheme {
-  static const Color primaryColor = Color(0xFF088DC4);
+  static const Color primaryColor = Color(0xFFF15B29);
 
-  static const Color secondaryColor = Color(0xFF088DC4);
+  static const Color secondaryColor = Color(0xFFF15B29);
   static const Color backgroundColor = Color(0xFFFFFFFF);
   static const Color cardColor = Color(0xFFFFFFFF);
   static const Color textColor = Color(0xFF000000);
@@ -14,8 +14,8 @@ extension AppColors on ColorScheme {
   static const Color warningColor = Color(0xFFF57C00);
   static const Color cardLightColor = Color(0xFFFFFFFF);
   static const Color cardDarkColor = Color(0xFF1A1A1A);
-  static const Color darkPrimaryColor = Color(0xFF0ca2df);
-  static const Color darkSecondaryColor = Color(0xFF0ca2df);
+  static const Color darkPrimaryColor = Color(0xFFED430B);
+  static const Color darkSecondaryColor = Color(0xFFE84109);
   static const Color darkBackgroundColor = Color(0xFF000000);
   static const Color darkCardColor = Color(0xFF28282D);
   static const Color darkTextColor = Color(0xFFFFFFFF);

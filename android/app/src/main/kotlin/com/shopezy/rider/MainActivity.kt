@@ -1,4 +1,4 @@
-package com.hyperLocal.rider
+package com.shopezy.rider
 
 import io.flutter.embedding.android.FlutterActivity
 

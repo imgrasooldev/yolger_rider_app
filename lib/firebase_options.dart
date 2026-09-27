@@ -50,23 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
+    apiKey: 'AIzaSyBvVfrw3cjctK0qYy7nMcCsqMppw8SPeMs',
+    appId: '1:182078486211:android:546005d69fb01fc8795476',
+    messagingSenderId: '182078486211',
+    projectId: 'shopez-f2501',
+    storageBucket: 'shopez-f2501.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_STORAGE_BUCKET',
-    androidClientId: 'YOUR_ANDROID_CLIENT_ID',
-    iosClientId: 'YOUR_IOS_CLIENT_ID',
-    iosBundleId: 'YOUR_IOS_BUNDLE_ID',
+    apiKey: 'AIzaSyCUZzaMW2dF9jSLZayA1-nee_0jknSa7Rc',
+    appId: '1:182078486211:ios:6c5a005870f32e46795476',
+    messagingSenderId: '182078486211',
+    projectId: 'shopez-f2501',
+    storageBucket: 'shopez-f2501.firebasestorage.app',
+    androidClientId: '182078486211-6972863p00h3fsdi8ssv5gqe7nk0koo0.apps.googleusercontent.com',
+    iosClientId: '182078486211-amrmtm5osi0n6tbj8fvikg118s5f9nna.apps.googleusercontent.com',
+    iosBundleId: 'com.shopezy.rider',
   );
-
-
 }

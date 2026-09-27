@@ -18,7 +18,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.hyperLocal.rider"
+    namespace = "com.shopezy.rider"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "28.2.13676358"
 
@@ -34,7 +34,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.hyperLocal.rider"
+        applicationId = "com.shopezy.rider"
         // You can update the following values to match your application needs.
         // For settings information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

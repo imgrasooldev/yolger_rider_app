@@ -1,6 +1,6 @@
-const String appName = 'Yolger';
-const String packageName = 'com.hyperLocal.rider';
-const String domainBaseUrl = 'https://portal.yolger.com';
+const String appName = 'ShopEzy Rider';
+const String packageName = 'com.shopezy.rider';
+const String domainBaseUrl = 'https://portal.shopezyna.com';
 const String baseUrl = '$domainBaseUrl/api/delivery-boy/';
 const String deliveryZoneUrl = '$domainBaseUrl/api/';
 const String defaultTheme = 'light';

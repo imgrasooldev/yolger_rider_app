@@ -19,13 +19,13 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" tools:node="remove"/>
 
     <application
-        android:label="Yolger Rider"
+        android:label="ShopEzy Rider"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon"
         android:enableOnBackInvokedCallback="true">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_ACTUAL_API_KEY_HERE"/>
+            android:value="AIzaSyCotPUrfPk7MLJZmGiS06sSfAWXDXbsr28"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

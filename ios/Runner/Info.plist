@@ -9,7 +9,7 @@
 				<string>Editor</string>
 				<key>CFBundleURLSchemes</key>
 				<array>
-					<string>REVERSED_CLIENT_ID</string>
+					<string>com.googleusercontent.apps.182078486211-amrmtm5osi0n6tbj8fvikg118s5f9nna</string>
 				</array>
 			</dict>
 		</array>
@@ -23,7 +23,7 @@
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
-		<string>Yolger Rider</string>
+		<string>ShopEzy Rider</string>
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -31,7 +31,7 @@
 		<key>CFBundleInfoDictionaryVersion</key>
 		<string>6.0</string>
 		<key>CFBundleName</key>
-		<string>Hyper Local Rider</string>
+		<string>ShopEzy Rider</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
